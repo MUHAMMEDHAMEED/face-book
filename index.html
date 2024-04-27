@@ -15,11 +15,11 @@
 
         </div>
         <div class="login">
-            <form action="">
+            <form class="signup-form" action="hello2.html" id="signup-form">
                 <table class="login-controlls">
                     <tr>
-                        <td><label class="login-label">email or mobile</label> </td>
-                        <td><label class="login-label">     password</label></td>
+                        <td><label name="fname" class="login-label">email or mobile</label> </td>
+                        <td><label name="sname" class="login-label">     password</label></td>
                     </tr>
                     <tr>
                         <td><input type="text"></td>
@@ -40,17 +40,25 @@
     </div>
     <div class="main-body">
         <div class="left-section">
-            <img class="img" src="fb.svg" alt="">
-            
-            <p class="line">Facebook helps you connect and share with the people in your life.</p>
+            <img class="img" src="fb.svg" alt=""><br>
+            <h1 class="line">Facebook helps you connect and share with the people in your life.</h1> 
 
         </div>
         <div class="right-section">
-            <input type class="right-section"email="placeholder"><br>
-            <input type="text"placeholder="password"><br>
-            <input class type="login-btn" type="button" value="login">
+            <input class="email" type="email="placeholder="email addres or phone number"><br>
+            <input class="password" type="text"placeholder="password"><br>
+            <input class="login-sbt" type="submit" value="login"><br>
+            <div>
+                <input class="new-account" type="button" value="create new account">
+            </div>
+
+        </div>
         </style>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="fb.js"></script>
+
 </body>
 </html>
